@@ -22,5 +22,9 @@ protobuf==4.24.3
 # Avoid cffi errors
 # cryptography includes its own wheels
 cryptography==41.0.4
-rebuild==1.0.0# force rebuild
+# force rebuild
+rebuild==1.0.0
+
+
+# force rebuild
 rebuild==1.0.0
