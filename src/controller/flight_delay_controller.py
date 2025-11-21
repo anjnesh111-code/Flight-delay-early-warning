@@ -2,7 +2,8 @@ import os
 import streamlit as st
 import joblib
 from src.services import weather_api, congestion_api
-from src.model.feature_utils import build_feature_row
+from src.services.feature_utils import build_feature_row
+
 
 MODELS_DIR = os.environ.get("MODELS_DIR", "./models")
 
